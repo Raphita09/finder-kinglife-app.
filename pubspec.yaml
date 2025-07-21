@@ -1,5 +1,8 @@
-name: finder_kinglife_app
-description: Aplicación para buscar rangos y usuarios
+name: finder_king_life
+description: App para buscar usuarios y rangos con animaciones y tema.
+
+publish_to: 'none' # No se publica en pub.dev
+
 version: 1.0.0+1
 
 environment:
@@ -8,7 +11,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # Íconos de Cupertino
   cupertino_icons: ^1.0.2
+
+  # Peticiones HTTP (por si luego conectas con servidor)
+  http: ^0.13.6
+
+  # Google Fonts para fuentes bonitas y fáciles de usar
+  google_fonts: ^4.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
 
 flutter:
   uses-material-design: true
